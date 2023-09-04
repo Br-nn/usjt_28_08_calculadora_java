@@ -1,7 +1,7 @@
 import java.util.Scanner;
 // pacote padrão: java.lang: importado automáticamente
 public class SomaDoisNumeros {
-    public static void main(String [] args{
+    public static void main(String [] args){
     //declaração de variáveis
     Scanner leitor = new Scanner(System.in);
     double primeiroOperando;
@@ -18,5 +18,6 @@ public class SomaDoisNumeros {
     resultado = primeiroOperando + segundoOperando;
 
     // saída
-    )
+    System.out.print(resultado);
+    }
 }
