@@ -16,6 +16,6 @@ public class SomaDoisNumeros {
     resultado = primeiroOperando + segundoOperando;
 
     // saída
-    JOptionPane.showMessageDialog(null, resultado);
+    JOptionPane.showMessageDialog(null, primeiroOperando + "+" + segundoOperando + "=" + resultado);
     }
 }
